@@ -279,7 +279,7 @@ hr {
         transform: translateX(-500px);
         transition: transform 0.5s ease-in-out;
     }
-    .nav-main ul.nav-menu .show {
+    .nav-main ul.nav-menu.show {
         transform: translateX(20px);
     }
     .nav-main ul.nav-menu li {
@@ -290,8 +290,8 @@ hr {
     .nav-main ul.nav-menu li:last-child {
         border-bottom: 0;
     }
-    .nav-main il.nav-menu-right {
-        margin-right: 40px;
+    .nav-main ul.nav-menu-right {
+        margin-right: 50px;
     }
     .news-cards {
         grid-template-columns: repeat(2, 1fr);
